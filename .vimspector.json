@@ -1,0 +1,22 @@
+{
+  "configurations": {
+    "django": {
+      "adapter": "debugpy",
+      "breakpoints": {
+        "exception": {
+          "all": "N",
+          "uncaught": "N"
+        }
+      },
+      "filetype": "python",
+      "configuration": {
+        "request": "launch",
+        "python": "~/anaconda3/envs/django-env/python.exe",
+        "stopOnEntry": false,
+        "program": "./manage.py",
+        "args": ["runserver", "127.0.0.1:8000"],
+        "django": true
+      }
+    }
+  }
+}
